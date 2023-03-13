@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ .wrapper {
+    width: 100%;
+    height: 664px;
+    background-image: url(../img/rasm3.jpg);
+    background-position: center;
+    background-size: cover;
+  
+ }
+
+ .container {
+  width: 1200px;
+  margin: auto;
+ }
+
+ .nav {
+  width: 100%;
+  height: 70px;
+ text-align: center;
+ background: green;
+
+
+ }
+
+ .list {
+  display: inline-flex;
+  list-style: none;
+margin-top: 25px;
+ }
+
+ .link {
+  font-size: 17px;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+ }
+ i {
+  margin-right: 7px;
+ }
+ .nav .link:hover {
+  background: rgb(60, 229, 60);
+  color: white;
+ }
+ ul {
+  list-style: none;
+ 
+ }
+
+ .list1 {
+  padding: 20px 20px;
+  display: none;
+  font-size: 18px;
+ 
+
+
+
+ }
+ a {
+  text-decoration: none;
+ }
+  
+ .nav ul li:hover .list1{
+  display: block;
+  position: absolute;
+  background: green;
+  margin-top: 15px;
+  margin-left: -15px;
+
+ }
+
+ .nav ul li:hover .list1 li{
+  display: block;
+ margin-top: 10px;
+ 
+ }
+ 
+.nav .link1:hover{
+  color: white;
+  background: rgb(18, 149, 18);
+ 
+}
+.link1 {
+padding: 9px 20px ;
+border-bottom: 1px solid black;
+  
+}
+.nav .text:hover {
+  color: white;
+}
+
+.list3 {
+  display: none;
+}
+.link1:hover .list3 {
+  position: absolute;
+  display: block;
+  margin-top: -40px;
+  margin-left: 120px;
+  background: green;
+
+}
+.fa-angle-right {
+  padding-left: 10px;
+}
+
+
+
+.container1 {
+  width: 1200px;
+  margin: auto;
+
+}
+
+.product__business {
+ text-align: center;
+transform: translateY(240px);
+}
+
+.business {
+  font-size: 80px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.part {
+ width: 100%;
+ height: 80px;
+ background: black;
+
+}
+.part1 {
+  color: white;
+  font-size: 40px;
+
+padding: 20px;
+}
+
+.container2 {
+  display: flex;
+
+}
